@@ -1,6 +1,25 @@
 body {
     width: 1600px;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
 }
 .glass {
     width: 648px;
+}
+.caption {
+    width: 256px;
+    height: 46px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 16px 20px;
+    text-align: left;
+    position: absolute;
+    bottom: 48px;
+
 }
