@@ -4,6 +4,7 @@ body {
 }
 .container {
     position: relative;
+    display: flex;
 }
 .glass {
     width: 648px;
@@ -22,4 +23,18 @@ body {
     position: absolute;
     bottom: 48px;
 
+}
+.header-container {
+    position: absolute;
+    width: 724px;
+height: 116px;
+
+background-color: #fff;
+padding: 48px 0 20px 55px;
+font-family: "Ubuntu", sans-serif;
+font-size: 48px;
+font-weight: 700;
+margin-left: 500px;
+z-index: 1;
+margin-top: 52px;
 }
