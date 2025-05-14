@@ -1,6 +1,7 @@
 body {
     width: 1600px;
     box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
 }
 .container {
     position: relative;
@@ -26,15 +27,35 @@ body {
 }
 .header-container {
     position: absolute;
-    width: 724px;
-height: 116px;
+    width: 689px;
+    height: 129px;
+    display: flex;
+    flex-direction: column;
 
-background-color: #fff;
-padding: 48px 0 20px 55px;
-font-family: "Ubuntu", sans-serif;
-font-size: 48px;
-font-weight: 700;
-margin-left: 500px;
-z-index: 1;
-margin-top: 52px;
+    background-color: #fff;
+    padding: 20px 0 25px 55px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 500px;
+    z-index: 1;
+    margin-top: 52px;
+}
+
+
+
+.rating {
+    height: 24px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.rating img {
+    margin-right: 8px;
+}
+
+.rating span {
+    margin-left: 10px;
 }
