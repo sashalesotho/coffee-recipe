@@ -94,3 +94,12 @@ font-size: 12px;
 font-size: 14px;
 color: #FFA41B;
 }
+.description {
+    margin-top: 31px;
+    margin-left: 740px;
+    width: 682px;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.4px;
+}
